@@ -1,0 +1,361 @@
+
+.inicio{
+    background: url(../../../assets/img/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color:  #1cB698;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border:  10px solid #303440;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 128px;
+}
+
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+}
+
+.inicio .contenido-banner .redes a{
+    color: #303440;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.inicio .contenido-banner .redes a:hover{
+    background-color: #fff;
+}
+
+.sobremi{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sobremi h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.sobremi .contenido-seccion p span{
+    color: #1cB698;
+    font-weight: bold;
+}
+
+.sobremi .fila{
+    display: flex;
+    align-items: center;
+}
+
+.sobremi .fila .col{
+    width: 50%;
+}
+
+.sobremi .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.sobremi .fila .col ul{
+    list-style: none;
+}
+
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+}
+
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: #1cB698;
+    width: 130px;
+}
+
+.sobremi .fila .col ul li span{
+    background-color: #1cB698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.sobremi button a {
+    text-decoration: none;
+    color: #fff;
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1cB698;
+    z-index: -1;
+    transition: 1s;
+}
+
+.sobremi button:hover .overlay{
+    width: 100%;
+}
+
+.curriculum{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.curriculum h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.curriculum .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    position: relative;
+}
+
+.curriculum .fila .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.curriculum .fila .item .casa{
+    color: #1cB698;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.curriculum .fila .item .fecha{
+    display: block;
+    color: #1cB698;
+    margin-bottom: 10px;
+}
+
+.curriculum .fila .izq{
+    border: 2px solid #1cB698 ;
+}
+
+.curriculum .fila .item .conectori{
+    height: 2px;
+    background-color: #1cB698;
+    width: 45px;
+    position: absolute;
+    top: 50%;
+    right: -45px;
+    z-index: 5;
+}
+
+.curriculum .fila .item .conectori .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1cB698;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+.contenedor__educacion__tarjetas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.portfolio .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.portfolio h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.portfolio .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio .galeria .proyecto{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.portfolio .galeria .proyecto img{
+    width: 100%;
+    display: block;
+}
+
+.portfolio .galeria .proyecto .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}
+
+.portfolio .galeria .proyecto .overlay h3{
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.portfolio .overlay a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.portfolio .galeria .proyecto .overlay:hover{
+    opacity: 1;
+}
+
+.portfolio .galeria .proyecto .overlay:hover h3{
+    margin-bottom: 0px;
+}
+
+.skills{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.skills .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.skills h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.skills .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+    width: 50%;
+    padding: 0 20px;
+}
+
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.skill{
+    border: 2px solid #1cB698;
+    width: 16vh;
+    background-color: #252A2E;
+    display: grid;
+    display: inline-grid;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+
+@media (max-width: 1024px) {
+    .contenedor__educacion__tarjetas{
+        display: grid;
+        justify-content: center;
+    }
+    .curriculum .fila .col h3{
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 1280px) {
+    .contenedor__educacion__tarjetas{
+        height: 50vh;
+        display: grid;
+        justify-content: center;
+    }
+    .curriculum .fila .col h3{
+        text-align: center;
+    }
+}
